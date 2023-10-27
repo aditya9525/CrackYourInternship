@@ -1,7 +1,5 @@
 class Solution {
   public:
-    // Function to return a list containing the DFS traversal of the graph.
-    
     void dfs(int node, vector<int>adj[], unordered_map<int, bool>&visited,vector<int>&ans){
         ans.push_back(node);
         visited[node]=true;
